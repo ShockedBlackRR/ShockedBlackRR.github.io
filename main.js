@@ -1,8 +1,7 @@
-import * as THREE from "https://unpkg.com/three@0.138.0/build/three.module.js";
+import * as THREE from "three";
 import './style.css'
-import * as dat from "dat.gui"
 
-import gsap from './node_modules/gsap'
+import gsap from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
