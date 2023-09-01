@@ -9,7 +9,7 @@ const scene = new THREE.Scene()
 
 // Loader
 const gltfLoader = new GLTFLoader();
-gltfLoader.load('./notassets/figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
+gltfLoader.load('./figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
     scene.add(gltfScene.scene)
 });
 
