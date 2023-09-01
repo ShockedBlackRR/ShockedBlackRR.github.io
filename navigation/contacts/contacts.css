@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.title {
+    color: white;
+    z-index: 2;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.covered {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.centered-box {
+    background-color: rgb(0, 0, 0);
+    display: flex; /* Changed from flex to inline-flex */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    color: white;
+    padding: 2rem;  /* Adjust as needed */
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form p {
+    margin-bottom: 1rem;
+    color: #ddd;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    margin-bottom: 0.5rem;
+    color: #aaa;
+}
+
+.input-group input, .input-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: #0be2f6;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #000;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #09c2d1;
+}
+.alternative-contact {
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.alternative-contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.alternative-contact ul {
+    list-style-type: none;
+}
+
+.alternative-contact li {
+    margin-bottom: 1rem;
+}
+
+.alternative-contact a {
+    color: #0be2f6;
+    text-decoration: none;
+}
+
+.alternative-contact a:hover {
+    text-decoration: underline;
+}
