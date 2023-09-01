@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="art.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="/">Home</a>
+            <ul>
+                <li><a href="../projects/projects.html">Projects</a></li>
+                <li><a href="../about_me/aboutme.html">About Me</a></li>
+                <li><a href="../contacts/contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class="title">Artwork</h1>
+    <div class="centered-box">
+        <section class="gallery">
+            <!-- Main images -->
+            <div class="gallery__display">
+                <img class="gallery__img" id="displayImg1" src="./assets/birthday.png" alt="" />
+                <img class="gallery__img" id="displayImg2" src="./assets/bkg.png" alt="" />
+                <img class="gallery__img" id="displayImg3" src="./assets/ehehe.png" alt="" />
+                <img class="gallery__img" id="displayImg4" src="./assets/ezgg.png" alt="" />
+                <img class="gallery__img" id="displayImg5" src="./assets/FUN!.png" alt="" />
+                <img class="gallery__img" id="displayImg6" src="./assets/sword summit c1.png" alt="" />
+                <img class="gallery__img" id="displayImg7" src="./assets/vti.png" alt="" />
+                <img class="gallery__img" id="displayImg8" src="./assets/emoji1.png" alt="" />
+            </div>
+
+            <!-- Thumbnails (First Row) -->
+            <div class="gallery__thumbnails">
+                <img src="./assets/birthday.png" alt="" onclick="changeImage('displayImg1')" />
+                <img src="./assets/bkg.png" alt="" onclick="changeImage('displayImg2')" />
+                <img src="./assets/ehehe.png" alt="" onclick="changeImage('displayImg3')" />
+                <img src="./assets/ezgg.png" alt="" onclick="changeImage('displayImg4')" />
+            </div>
+
+            <!-- Thumbnails (Second Row) -->
+            <div class="gallery__thumbnails">
+                <img src="./assets/FUN!.png" alt="" onclick="changeImage('displayImg5')" />
+                <img src="./assets/sword summit c1.png" alt="" onclick="changeImage('displayImg6')" />
+                <img src="./assets/vti.png" alt="" onclick="changeImage('displayImg7')" />
+                <img src="./assets/emoji1.png" alt="" onclick="changeImage('displayImg8')" />
+            </div>
+        </section>
+
+    </div>
+    <script src="art.js"></script>
+</body>
+</html>

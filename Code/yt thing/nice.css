@@ -1,0 +1,50 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thumbnail{
+    width: 100%;
+}
+.search-box {
+    display: block;
+    font-size: 20px;
+    margin-left: 12px;
+}
+.video-title {
+    margin-top: 0;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.vid-on-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.pfp {
+    width: 40px;
+    border-radius: 100%;
+    margin-top: 12px;
+}
+.video-author {
+    font-family: arial;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    
+}
+.video-stats {
+    margin-top: 4px;
+    font-family: arial;
+    color: rgb(95, 95, 95);
+    font-size: 13px;
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
