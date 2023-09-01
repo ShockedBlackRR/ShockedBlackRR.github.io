@@ -10,7 +10,7 @@ const scene = new THREE.Scene()
 
 // Loader
 const gltfLoader = new GLTFLoader();
-gltfLoader.load('./public/figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
+gltfLoader.load('assets/public/figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
     scene.add(gltfScene.scene)
 });
 
@@ -202,28 +202,28 @@ document.getElementById("bottom").addEventListener("click", () => {
 let up = function (){
     disable = true
     setTimeout(function() {
-        window.location.href = "./navigation/about_me/aboutme.html"
+        window.location.href = "assets/public/navigation/about_me/aboutme.html"
     }, 1500)
 }
 
 let down = function (){
     disable = true
     setTimeout(function() {
-        window.location.href = "./navigation/contacts/contacts.html"
+        window.location.href = "assets/public/navigation/contacts/contacts.html"
     }, 1500)
 }
 
 let left = function (){
     disable = true
     setTimeout(function() {
-        window.location.href = "./navigation/art/art.html"
+        window.location.href = "assets/public/navigation/art/art.html"
     }, 1500)
 }
 
 let right = function (){
     disable = true
     setTimeout(function() {
-        window.location.href = "./navigation/projects/projects.html"
+        window.location.href = "assets/public/navigation/projects/projects.html"
     }, 1500)
 }
 
