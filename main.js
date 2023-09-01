@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from "../node_modules/three/build/three.module.js"
 import './style.css'
 import gsap from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
@@ -9,7 +9,7 @@ const scene = new THREE.Scene()
 
 // Loader
 const gltfLoader = new GLTFLoader();
-gltfLoader.load('./figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
+gltfLoader.load('./public/figuredoutexport/mayybetryagain.gltf', (gltfScene) => {
     scene.add(gltfScene.scene)
 });
 
